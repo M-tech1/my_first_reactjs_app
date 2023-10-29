@@ -1,0 +1,193 @@
+
+
+
+/* calling the header file class as defined from the HTML */
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 80px;
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  background-color:#00B7EB;
+}
+
+
+/* calling the hero file class as defined from the HTML */
+.hero {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 80px;
+  font-size: 30px;
+  justify-content: center;
+  background-color:#FF0000;
+}
+
+/* calling the content file class as defined from the HTML */
+.content{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 80px;
+  font-size: 30px;
+  background-color:#00FF00;
+}
+
+/* calling the sidebar file class as defined from the HTML */
+.sidebar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 80px;
+  font-size: 30px;
+  background-color:#800080;
+}
+
+/* calling the footer file class as defined from the HTML */
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 80px;
+  font-size: 30px;
+  line-height: 75px;
+  text-align: center;
+  background-color:#444444;
+}
+
+
+.header> div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.hero> div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.content> div {
+  text-align: center;
+  line-height: 75px;
+  width:100%;
+  font-size: 30px;
+}
+.sidebar> div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.footer> div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+@media screen and (min-width:640px) {
+  .content{
+    float: left;
+    width:50%;
+  }
+}
+
+/* calling the header file class as defined from the HTML */
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 80px;
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  background-color:#00B7EB;
+}
+
+
+/* calling the hero file class as defined from the HTML */
+.hero {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 80px;
+  font-size: 30px;
+  justify-content: center;
+  background-color:#FF0000;
+}
+
+/* calling the content file class as defined from the HTML */
+.content{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 80px;
+  font-size: 30px;
+  background-color:#00FF00;
+}
+
+/* calling the sidebar file class as defined from the HTML */
+.sidebar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 80px;
+  font-size: 30px;
+  background-color:#800080;
+}
+
+/* calling the footer file class as defined from the HTML */
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 80px;
+  font-size: 30px;
+  line-height: 75px;
+  text-align: center;
+  background-color:#444444;
+}
+
+
+.header> div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.hero> div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.content> div {
+  text-align: center;
+  line-height: 75px;
+  width:100%;
+  font-size: 30px;
+}
+.sidebar> div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.footer> div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+@media screen and (min-width:640px) {
+  .content{
+    float: left;
+    width:50%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .content{
+    float: left;
+    width:50%;
+  }
+}

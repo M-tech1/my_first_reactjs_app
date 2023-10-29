@@ -1,0 +1,51 @@
+<html style='background-color: black'>
+
+<div id="my_bouncing_box" style="background-color: blue; border-radius: 3px; position: 
+absolute; left: 0px; top: 0px; min-width: 100px; min-height: 100px; text-align: 
+center; font-weight: bold; color: #999;">Not loaded</div>
+
+<script type="text/javascript">
+
+    let y_Ax = 0; // top = 0
+    let x_Ax = 0; // initial position of the x - axis = 0 which mean left is = 0
+
+    let yPos = true; // top to bottom
+    let xPos = true; //if true which mean left to right if false its right ro left
+
+    //const ofLeft;
+    //const ofTop;
+
+    let BounceBox = document.getElementById("my_bouncing_box")
+    BounceBox.innerHTML = "Martins Ake"
+    BounceBox.style.bottom = "0";
+    BounceBox.style.right = "0";
+
+    BounceBox.style.removeProperty("top"); //removing the default property of the top
+    BounceBox.style.removeProperty("left"); //removing the default property of the left
+
+
+    var ofLeft = BounceBox.offsetLeft; // to keep the div from going overboard. offset is used to get the full width and height of the div
+    var ofTop = BounceBox.offsetTop;
+
+    BounceBox.style.removeProperty("bottom");
+    BounceBox.style.removeProperty("right");
+
+    //setInterval funtion set with give conditions.....
+    setInterval(
+        function () {
+            if (xPos) { x_Ax++; } else { x_Ax--; }
+            if (yPos) { y_Ax++; } else { y_Ax--; }
+
+            if (x_Ax == ofLeft || x_Ax == 0) { xPos = !xPos }
+            if (y_Ax == ofTop || y_Ax == 0) { yPos = !yPos; }
+
+            BounceBox.style.left = x_Ax;
+            BounceBox.style.top = y_Ax;
+
+
+        }, 10); //setInterval changing time
+
+
+</script>
+
+</html>

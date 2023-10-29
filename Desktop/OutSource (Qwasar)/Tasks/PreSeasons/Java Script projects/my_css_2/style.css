@@ -1,0 +1,42 @@
+.main{
+  background-color:#6a6afb;
+  color:black;
+  flex-basis:50%;
+  text-align:center;
+  justify-content: center;
+  box-shadow: 3px 5px #c2c2c2;
+  width:50%;
+}
+
+.sidebar{
+  background-color:#e25a5a;
+  color:black;
+  text-align:center;
+  justify-content: center;
+  flex-basis:25%;
+  box-shadow: 3px 5px #c2c2c2;
+  width:25%;
+}
+.empty{
+    width:25%;
+}
+
+.footer{
+  background-color:#26c926;
+  color:black;
+  box-shadow: 3px 5px #c2c2c2;
+  margin-top:6px;
+  width:100%;
+}
+.header{
+  margin-bottom:6px;
+  background-color:orange;
+  color:black;
+  box-shadow: 3px 5px #c2c2c2;
+  width:100%;
+  font-weight: bold;
+}
+.header div h2{
+  font-weight:bold;
+}
+
